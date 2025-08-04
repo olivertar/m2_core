@@ -1,0 +1,21 @@
+{
+  "name": "orangecat/core",
+  "description": "OrangeCat Core Module",
+  "require": {
+    "php": "^8",
+    "ext-dom": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Orangecat\\Core\\": ""
+    }
+  }
+}
