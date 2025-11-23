@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Orangecat. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+     <add id="Orangecat_Core::menu"
+             title="Orangecat"
+             translate="title"
+             module="Orangecat_Core"
+             sortOrder="60"
+             resource="Orangecat_Core::menu"
+        />
+    </menu>
+</config>
