@@ -19,4 +19,145 @@
         content: '';
         background-position: center;
     }
+
+    #menu-orangecat-core-menu {
+        .submenu-group-title {
+            color: #EE672F;
+        }
+    }
+
+
+    //
+    //  User Manual Styles
+    //  _____________________________________________
+
+    .orangecat-manual {
+        padding: 30px;
+        background: #fff;
+        max-width: 1200px;
+        margin: 0 auto;
+        color: #303030;
+        font-family: 'Open Sans', sans-serif;
+
+        .manual-header {
+            border-bottom: 2px solid #eb5202;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+
+            h2 {
+                margin-bottom: 10px;
+                color: #eb5202;
+                font-weight: 600;
+            }
+        }
+
+        .intro-text {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        .manual-section {
+            margin-bottom: 50px;
+
+            h3 {
+                font-size: 1.4em;
+                color: #333;
+                margin-bottom: 20px;
+                padding-left: 15px;
+                border-left: 4px solid #eb5202;
+            }
+        }
+
+        // Step List Styles
+        .step-list {
+            margin: 20px 0;
+
+            .step-item {
+                margin-bottom: 25px;
+            }
+
+            .step-number {
+                background: #eb5202;
+                color: #fff;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                display: inline-block;
+                font-weight: bold;
+                margin-right: 5px;
+                line-height: 30px;
+                text-align: center;
+            }
+
+            .step-label {
+                font-weight: bold;
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+
+            .step-content {
+                padding-left: 40px;
+
+                strong {
+                    font-size: 1.1em;
+                    color: #333;
+                }
+
+                p {
+                    margin-bottom: 10px;
+                    color: #555;
+                }
+
+                ul {
+                    margin-left: 20px;
+                    color: #666;
+                }
+            }
+        }
+
+        // Tip Box
+        .tip-box {
+            background: #fdf0d5;
+            border-left: 4px solid #eb5202;
+            padding: 15px;
+            margin-top: 20px;
+
+            strong {
+                color: #eb5202;
+                margin-bottom: 5px;
+            }
+        }
+
+        // Config Table
+        .config-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+
+            th {
+                background: #f5f5f5;
+                text-align: left;
+                padding: 12px;
+                border-bottom: 2px solid #ddd;
+                color: #333;
+            }
+
+            td {
+                padding: 12px;
+                border-bottom: 1px solid #eee;
+                vertical-align: top;
+
+                &:first-child {
+                    width: 20%;
+                    color: #eb5202;
+                }
+
+                &:last-child {
+                    width: 35%;
+                    color: #666;
+                    font-style: italic;
+                }
+            }
+        }
+    }
 }
